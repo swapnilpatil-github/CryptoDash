@@ -1,0 +1,96 @@
+.contactus-container {
+    padding: 30px;
+    max-width: 800px;
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f4f4f4;
+    background: linear-gradient(to right, #1a1a2e, #16213e, #0f3460); 
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Subtle shadow for a blended look */
+  }
+  
+  .contactus-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  
+  .contactus-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contactus-label {
+    font-size: 1.1em;
+    color: #f4f4f4;
+    font-weight: 500;
+  }
+  
+  .contactus-input, .contactus-textarea {
+    width: 100%;
+    padding: 14px;
+    margin-top: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background for inputs */
+    color: #f4f4f4;
+  }
+  
+  .contactus-textarea {
+    height: 150px;
+    resize: vertical;
+  }
+  
+  .contactus-button {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #0073e6, #005bb5); /* Gradient button */
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-transform: uppercase;
+  }
+  
+  .contactus-button:hover {
+    background: linear-gradient(90deg, #005bb5, #003d80);
+  }
+  
+  .contactus-status {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .contactus-links {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .contactus-links h2 {
+    font-size: 1.4em;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  .contactus-links p {
+    font-size: 1.1em;
+    color: #f4f4f4;
+  }
+  
+  .contactus-links a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .contactus-links a:hover {
+    text-decoration: underline;
+  }
+  

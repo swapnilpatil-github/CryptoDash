@@ -1,0 +1,53 @@
+.aboutus-container {
+    padding: 30px;
+    max-width: 800px; /* Increased max-width for a more spacious layout */
+    margin: 20px auto; /* Margin to center the container and add space from edges */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f4f4f4; /* Light text color for contrast */
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background for readability */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6); /* Subtle shadow for depth */
+  }
+  
+  .aboutus-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #ffffff; /* Light color for title */
+    margin-bottom: 20px;
+    font-weight: 700; /* Bold for emphasis */
+  }
+  
+  .aboutus-intro {
+    margin-bottom: 20px;
+    font-size: 1.2em; /* Slightly larger for better readability */
+  }
+  
+  .aboutus-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .aboutus-details h2 {
+    font-size: 1.8em;
+    color: #ffffff; /* Light color for headings */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0073e6; /* Underline with a color to highlight sections */
+    padding-bottom: 5px; /* Space between text and underline */
+  }
+  
+  .aboutus-details p {
+    font-size: 1.1em;
+    line-height: 1.6; /* Improved readability with line spacing */
+  }
+  
+  .aboutus-details a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .aboutus-details a:hover {
+    text-decoration: underline;
+  }
+  
